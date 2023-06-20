@@ -11,7 +11,7 @@ const addOnItems = [
   
     addOnItems.forEach((item) => {
       const li = document.createElement("li");
-      li.className = "list-group-item";
+      li.className = "list-group-item";  
       li.textContent = item.name;
   
       const checkbox = document.createElement("input");
